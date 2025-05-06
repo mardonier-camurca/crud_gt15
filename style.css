@@ -26,14 +26,7 @@
     padding: 20px;
   }
   
-  .container {
-    background-color: var(--card-bg);
-    border-radius: var(--border-radius);
-    padding: 30px;
-    width: 100%;
-    max-width: 500px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-  }
+  
   
   h1 {
     text-align: center;
@@ -50,7 +43,7 @@
   }
   
   input {
-    width: 30%;
+    width: 40%;
     padding: 16px;
     border: 1px solid #333;
     border-radius: var(--border-radius);
@@ -73,7 +66,7 @@
     color: white;
     border: none;
     border-radius: var(--border-radius);
-    font-size: 16px;
+    font-size: 12px;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s;
@@ -84,22 +77,8 @@
     background-color: #4efd7a;
   }
   
-  .result {
-    margin-top: 30px;
-    padding: 20px;
-    border-radius: var(--border-radius);
-    background-color: #2d2d2d;
-    display: none;
-  }
-  
-  .error {
-    color: var(--error-color);
-    margin-top: 5px;
-    font-size: 14px;
-    display: none;
-  }
-  
-   li {
+  li {
     width: 100%;
+    margin-right: 16px;
   }
   
