@@ -43,7 +43,7 @@
   }
   
   input {
-    width: 40%;
+    width: 80%;
     padding: 16px;
     border: 1px solid #333;
     border-radius: var(--border-radius);
