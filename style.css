@@ -40,7 +40,7 @@
   }
   
   input {
-    width: 80%;
+    width: 400px;
     padding: 16px;
     border: 1px solid #333;
     border-radius: var(--border-radius);
@@ -54,6 +54,8 @@
     outline: none;
     border-color: var(--accent-color);
     font-size: 20px;
+    margin-bottom: 16px;
+    margin-top: 16px;
   }
   
   button {
@@ -67,8 +69,18 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s;
-    margin-top: 8px;
+    margin-top: 10px;
     font-size: small;    
+  }
+
+  .btnCriar{
+    width: 250px;
+    font-size: 20px;
+  }
+
+
+  .btnEditar{
+    width: 50px;
   }
 
   button:hover {
@@ -77,12 +89,11 @@
   }
   
   li {
-    width: 80%; */
-    /* margin-right: 8px; */
+    list-style: none;
+    width: 650px; 
+    height: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom: 24px;
-    
-
+    align-items: center;
+    text-align: center;
   }
-
   
