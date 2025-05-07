@@ -40,7 +40,7 @@
   }
   
   input {
-    width: 400px;
+    width: 320px;
     padding: 16px;
     border: 1px solid #333;
     border-radius: var(--border-radius);
